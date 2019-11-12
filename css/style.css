@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 1024px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 50px;
+	height: 320px;
+	background-color: #445162;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.text-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.product-name {
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.product-header-info {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.product-header-info ul{
+	margin-left: 35px;
+	list-style-image: url(../img/check_icon.png);
+}
+
+.product-info {
+	padding: 50px;
+	height: 350px;
+	box-sizing: border-box;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.product-info-header {
+	margin-bottom: 30px;
+	font-size: 30px;
+	line-height: 36px;
+	color: #445161;
+}
+
+.product-info-text {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.product-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-image {
+	margin-left: 100px;
+}
+
+.product-dignity {
+	padding: 50px;
+	background-color: #f5f5f5;
+}
+
+.product-dignity-title {
+	color: #445161;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	margin-bottom: 	30px;
+}
+
+.product-dignity-list {
+	font-size: 16px;
+	line-height: 24px;
+	color: #445161;
+}
+
+ul.product-dignity-list  {
+	list-style: none;
+	display: flex;
+	flex-wrap: 	wrap;
+}
+
+ul.product-dignity-list li {
+	position: relative;	
+	margin-left: 40px;
+	width: 45%;
+}
+
+ul.product-dignity-list li::before{
+	left: -40px;
+	position: absolute;	
+	content: url(../img/plus_icon.png);
+}
+
+.screenshots-galery {
+	padding: 50px;
+	height: 500px;
+	box-sizing: border-box;	
+}
+
+.screenshots-galery-title {
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 35px;
+	color: #445161;
+	text-align: center;	
+}
+
+.screenshots-galery ul {
+	display: flex;
+	list-style: none;	
+	flex-wrap: 	wrap;
+}
+
+.screenshots-galery ul li {
+	display: flex;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+.screenshot-item-text {
+	margin-left: 20px;
+}
+
+.screenshot-item-text-title {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 	20px;
+	color: 	#445161;
+}
+
+.screenshot-item-text-info {
+	font-size: 	16px;
+	line-height: 	24px;
+	color: #333333;
+}
+
+.reviews {
+	background-color: #f5f5f5;
+	padding: 50px;
+	box-sizing: border-box;	
+	height: 425px;
+}
+
+.reviews ul {
+	display: flex;
+	list-style: none;	
+	flex-wrap: 	wrap;
+}
+
+.reviews ul li {
+	display: flex;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.review-list-item-image img{
+	border-radius: 40px;
+}
+
+.review-title {
+	font-size: 30px;
+	line-height: 36px;
+	color: #445161;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+
+.review-list-item-info {
+	font-size: 14px;
+	line-height: 18px;
+	height: 120px;
+	width: 475px;
+	padding: 10px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin-left: 10px;
+	height: 120px;
+	background-image: url(../img/review_bg.png);
+	background-repeat: no-repeat;
+	color: #989898;
+}
+
+.review-list-item-info-text {
+	font-style: italic;
+	color: #333333;
+}
+
+.buy {
+	height: 530px;
+	padding: 50px;
+}
+
+.buy-title {
+	color: #445161;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.tariff {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-right: 95px;
+	margin-left: 95px;
+	margin-bottom: 50px;
+}
+
+.tariff > div {
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	background-color: #445162;
+	width: 300px;
+}
+
+.tariff-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 24px;
+	line-height: 30px;
+	height: 50px;
+}
+
+.tariff-price {
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	color: #445162;
+	height: 70px;
+	width: 296px;
+	font-size: 40px;
+	line-height: 30px;
+}
+
+.tariff-list {
+	list-style-position: inside;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+	margin: 20px;
+}
+
+.buy-button {
+	margin: 20px;
+	margin-top: 0px;
+	border-radius: 8px;
+	height: 40px;
+	width: 260px;
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #445161;
+}
+
+.contacts {
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: #445162;
+	height: 500px;
+}
+
+.contacts-title {
+	color: white;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contacts-main {
+	margin-left: 200px;
+	margin-right: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.contacts-main-input {
+	margin-right: 45px;
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-around;
+	height: 350px;
+	align-items: center;
+}
+
+.contacts-main-input textarea {
+	color: #445162;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 8px;
+	width: 500px;
+	height: 170px;
+}
+
+.contacts-main-input input {
+	color: #445162;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 8px;
+	width: 500px;
+	height: 40px;
+}
+
+.contacts-main-input button {
+	color: #445162;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	width: 140px;
+	height: 40px;
+}
+
+.contacts-main-social-numbers>div{
+	display: flex;
+	align-items: center;
+	height: 30px;
+	color: white;
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.contacts-main-social-numbers>div:last-child{
+	margin-bottom: 40px;
+}
+
+.contacts-main-social-numbers>div:first-child{
+	margin-top: 3px;
+}
+.contacts-main-social-numbers>div::before {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	content: "";
+	background-image: url(../img/contacts.png);
+}
+
+.contacts-main-social-numbers .contact-icq::before {
+	background-position: 0px -44px;
+}
+
+.contacts-main-social-numbers .contact-email::before {
+	background-position: 0px -88px;
+}
+
+.contacts-main-social-numbers .contact-phone::before {
+	background-position: 0px -132px;
+}
+
+.contacts-main-social-icons>a {
+	margin-right: 5px;
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	background-repeat: no-repeat;
+	background-image: url(../img/socials.png);
+}
+
+.contacts-main-social-icons .social-facebook {
+	background-position: -48px 0px;
+}
+
+.contacts-main-social-icons .social-linkedin {
+	background-position: -96px 0px;
+}
+
+.contacts-main-social-icons .social-google {
+	background-position: -148px 0px;
+}
+
+.contacts-main-social-icons .social-youtube {
+	background-position: -196px 0px;
+}
